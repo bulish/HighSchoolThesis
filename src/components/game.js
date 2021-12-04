@@ -260,7 +260,7 @@ const Game = props => {
 			alert.current,
 			{
 				display: 'none',
-				x: '-130%',
+				x: '-120%',
 				duration: 1,
 				ease: 'Power4.easeOut',
 			},
@@ -299,10 +299,12 @@ const Game = props => {
 									onComplete: function () {
 										gsap.to(alert.current, {
 											display: 'none',
+											onComplete: function () {
+												props.setSecondBox(false);
+												props.setSecondBoxRight(true);
+												props.setFirstBoxRight(true);
+											},
 										});
-										props.setSecondBox(false);
-										props.setSecondBoxRight(true);
-										props.setFirstBoxRight(true);
 									},
 								});
 							}}
