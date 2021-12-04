@@ -1,0 +1,100 @@
+$active: #4389CA;
+$focus: #2678c5;
+$gray: #BDC0C3;
+$blue: #2069AC;
+
+.setting-bar {
+    transform: translateX(50vw);
+    .button-wrapper {
+        .button {
+            transition: all 500ms;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        span {
+            background-color: $blue;
+            height: 2.5px;
+        }
+    }
+    .inputContainer {
+        margin: 10px 0;
+        position: relative;
+        background-color: $blue;
+        font-size: clamp(1.1rem, 1vw, 1.6rem);
+        input[type='checkbox'] {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          height: 25px;
+          background: $gray;
+          transition: all 300ms;
+          &:after {
+            content: '';
+            display: block;
+            left: 0;
+            top: 0;
+            position: absolute;
+          }
+          &:checked {
+              background-color: $active;
+          }
+          &:focus {
+            box-shadow: 0 0 0 $focus;
+          }
+          &:not(.input) {
+            width: 21px;
+          }
+        }
+        input[type='checkbox'] {
+          &:not(.input) {
+              transition: all 300ms;
+              border-radius: 7px;
+              &:after {
+                  width: 5px;
+                  transition: all 300ms;
+                  height: 9px;
+                  border-top: 0;
+                  border-left: 0;
+                  left: 7px;
+                  top: 4px;
+              }
+          }
+          &.input {
+            width: 55px;
+            border-radius: 12px;
+            transition: all 300ms;
+            &:after {
+              left: 2px;
+              top: 4px;
+              border-radius: 50%;
+              width: 16px;
+              height: 16px;
+              background: white;
+              transition: all 300ms;
+            }
+            &:checked {
+              transition: all 300ms;
+              &:after {
+                  transform: translateX(34px);
+              }
+          }
+          }
+        }
+    }
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(59, 59, 59);
+}
+
+::-webkit-scrollbar-track {
+  background: #e4dede;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(36, 35, 35);
+}

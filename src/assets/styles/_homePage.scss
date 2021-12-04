@@ -1,0 +1,76 @@
+.homePage {
+    min-height: 100vh;
+    max-width: 2000px;
+    margin: auto;
+    .button-wrapper {
+        font-size: clamp(1.2rem, 1vw, 1.7rem);
+        transition: all 500ms;
+        span {
+            transition: all 500ms;
+        }
+    }
+    .buttonActive {
+        span {
+            transition: all 500ms;
+            &:first-child {
+                transform: rotate(45deg);
+                position: relative;
+                top: .3rem;
+               
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                transform: rotate(-45deg);
+                position: relative;
+                bottom: .5rem;
+            }
+        }
+    }
+    .buttonHover {
+        span {
+            &:nth-child(2) {
+                transform: translateX(10px);
+            }
+        }
+    }
+    &__container {
+        max-width: 1800px;
+        margin: auto;
+        h1 {
+            font-size: clamp(2.2rem, 3.2vw, 5.5rem);
+            transition: all 500ms;
+        }
+        h5 {
+            font-size: clamp(1.3rem, 1.5vw, 2.5rem);
+            transition: all 500ms;
+        }
+        img {
+            width: 40rem;
+            height: auto;
+            transition: all 500ms;
+            @media (max-width: 1200px) {
+                width: 35rem !important;
+            }
+            @media (max-width: 750px) {
+                width: 28rem !important;
+            }
+            @media (max-width: 600px) {
+                width: 20rem !important;
+            }
+            @media (max-width: 400px) {
+                width: 18rem !important;
+            }
+        }
+        button {
+            font-size: clamp(1.2rem, 1vw, 1.7rem);
+            transition: all 500ms;
+            &:hover {
+                background-color: white;
+                color: #2069AC;
+                font-weight: 600;
+            }
+        }
+    }
+}

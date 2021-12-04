@@ -1,0 +1,106 @@
+.game {
+    min-height: 100vh;
+    max-width: 2000px;
+    margin: auto;
+    display: none;
+    .topContainer {
+        font-size: clamp(1rem, 1.1vw, 1.6rem);
+        .arrow {
+            img {
+                transition: all 500ms;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .questionContainer {
+        background-color: rgb(243, 243, 243);
+        box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 7px;
+        .question {
+            font-size: clamp(1.3rem, 1.8vw, 2.9rem);
+        }
+        .black {
+            color: #3F3D56;
+        }
+        .option {
+            background-color: #2069AC;
+            font-size: clamp(1rem, 1.1vw, 1.6rem);
+            transition: all 400ms;
+            &:hover {
+                background-color: #3d84c7;
+            }
+        }
+        .priserka {
+            z-index: -9999 !important;
+            img {
+                transition: all 400ms;
+                @media (max-width: 800px) {
+                    width: 6rem !important;
+                }
+            }
+            &:first-child {
+                top: -5.8rem;
+                right: -2rem;
+                transform: rotate(20deg);
+                @media (max-width: 800px) {
+                    right: 2rem !important;
+                    transform: rotate(0deg) !important;
+                    top: -4.9rem !important;
+                }
+            }
+            &:nth-child(2) {
+                top: -5.8rem;
+                right: 30%;
+                transform: translateX(-30%);
+                @media (max-width: 800px) {
+                    right: 40%;
+                    transform: translateX(-40%);
+                    top: -4.9rem !important;
+                }
+            }
+            &:nth-child(3) {
+                top: -5.8rem;
+                right: 70%;
+                transform: translateX(-70%);
+                @media (max-width: 800px) {
+                    top: -4.9rem !important;
+                }
+            }
+            &:nth-child(4) {
+                top: 30%;
+                left: -5.5rem;
+                transform: translateY(-30%) rotate(-70deg);
+                @media (max-width: 800px) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .score {
+        font-size: clamp(1rem, 1.3vw, 2.1rem);
+    }
+    .alert {
+        font-size: clamp(.9rem, 1vw, 1.6rem);
+        display: none;
+        .white {
+            border: 1px solid #2069AC;
+            color: #2069AC;
+            transition: all 500ms;
+            &:hover {
+                background-color: #2069AC;
+                color: white;
+            }
+        }
+        .blue {
+            border: 1px solid #2069AC;
+            background-color: #2069AC;
+            color: white;
+            transition: all 500ms;
+            &:hover {
+                background-color: white;
+                color: #2069AC;
+            }
+        }
+    }
+}
