@@ -284,7 +284,7 @@ const Game = props => {
 		>
 			<div className="topContainer flex justify-between absolute top-0 left-0 w-full px-8 py-6">
 				<div
-					className="alert absolute px-6 py-4 text-semibold bg-white left-5 top-5"
+					className="alert absolute px-6 py-4 text-semibold bg-white left-5 top-5 z-50"
 					ref={alert}
 				>
 					<p className="mb-3">Opravdu chceš ukončit hru?</p>
