@@ -260,7 +260,7 @@ const Game = props => {
 			alert.current,
 			{
 				display: 'none',
-				x: '-110%',
+				x: '-130%',
 				duration: 1,
 				ease: 'Power4.easeOut',
 			},
