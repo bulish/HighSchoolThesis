@@ -6,7 +6,7 @@ Online verze [zde](https://matematicky-kviz.netlify.app/)
 ## Instalace projektu:
 
 Pro instalaci potřebujete mít ve svém počítači stažený Node.js. \
-ZIP soubor stáhnete kliknutím na **CODE** &rarr; **Download ZIP**. \
+ZIP soubor stáhnete kliknutím na **CODE &rarr; Download ZIP**. \
 Projekt si také můžete naklonovat příkazem **git clone https://github.com/bulish/Maturitni-prace.git nazev-slozky**
 
 ### `npm install`
