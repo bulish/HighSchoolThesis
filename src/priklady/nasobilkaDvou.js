@@ -186,7 +186,7 @@ const nasobilkaDvou = () => {
 		},
 		{
 			id: 9,
-			priklad: '6 x 2',
+			priklad: '2 x 6',
 			moznosti: [
 				{
 					id: 1,
@@ -370,7 +370,7 @@ const nasobilkaDvou = () => {
 		},
 		{
 			id: 17,
-			priklad: '14 : 2',
+			priklad: '16 : 2',
 			moznosti: [
 				{
 					id: 1,
@@ -389,7 +389,7 @@ const nasobilkaDvou = () => {
 					moznost: '6',
 				},
 			],
-			vysledek: '7',
+			vysledek: '8',
 		},
 		{
 			id: 18,
@@ -456,6 +456,144 @@ const nasobilkaDvou = () => {
 				{
 					id: 4,
 					moznost: '18',
+				},
+			],
+			vysledek: '18',
+		},
+		{
+			id: 21,
+			priklad: '2 x 5',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '14',
+				},
+				{
+					id: 3,
+					moznost: '16',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '10',
+		},
+		{
+			id: 22,
+			priklad: '2 x 10',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '14',
+				},
+				{
+					id: 2,
+					moznost: '18',
+				},
+				{
+					id: 3,
+					moznost: '16',
+				},
+				{
+					id: 4,
+					moznost: '20',
+				},
+			],
+			vysledek: '20',
+		},
+		{
+			id: 23,
+			priklad: '2 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '8',
+				},
+				{
+					id: 3,
+					moznost: '6',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '8',
+		},
+		{
+			id: 24,
+			priklad: '2 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '14',
+				},
+				{
+					id: 2,
+					moznost: '18',
+				},
+				{
+					id: 3,
+					moznost: '16',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '16',
+		},
+		{
+			id: 25,
+			priklad: '6 x 2',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '14',
+				},
+				{
+					id: 2,
+					moznost: '16',
+				},
+				{
+					id: 3,
+					moznost: '10',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '12',
+		},
+		{
+			id: 26,
+			priklad: '9 x 2',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '20',
+				},
+				{
+					id: 2,
+					moznost: '16',
+				},
+				{
+					id: 3,
+					moznost: '18',
+				},
+				{
+					id: 4,
+					moznost: '14',
 				},
 			],
 			vysledek: '18',

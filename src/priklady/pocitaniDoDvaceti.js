@@ -460,6 +460,98 @@ const pocitaniDoDvaceti = () => {
 			],
 			vysledek: '16',
 		},
+		{
+			id: 21,
+			priklad: '13 + 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '17',
+				},
+				{
+					id: 2,
+					moznost: '18',
+				},
+				{
+					id: 3,
+					moznost: '19',
+				},
+				{
+					id: 4,
+					moznost: '16',
+				},
+			],
+			vysledek: '19',
+		},
+		{
+			id: 22,
+			priklad: '12 + 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '18',
+				},
+				{
+					id: 2,
+					moznost: '20',
+				},
+				{
+					id: 3,
+					moznost: '19',
+				},
+				{
+					id: 4,
+					moznost: '17',
+				},
+			],
+			vysledek: '20',
+		},
+		{
+			id: 23,
+			priklad: '7 + 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '16',
+				},
+				{
+					id: 2,
+					moznost: '14',
+				},
+				{
+					id: 3,
+					moznost: '15',
+				},
+				{
+					id: 4,
+					moznost: '17',
+				},
+			],
+			vysledek: '14',
+		},
+		{
+			id: 24,
+			priklad: '5 + 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '13',
+				},
+				{
+					id: 2,
+					moznost: '14',
+				},
+				{
+					id: 3,
+					moznost: '11',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '11',
+		},
 	];
 };
 

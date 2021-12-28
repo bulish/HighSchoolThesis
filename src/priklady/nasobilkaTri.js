@@ -301,7 +301,7 @@ const nasobilkaTri = () => {
 		},
 		{
 			id: 14,
-			priklad: '3 x 2',
+			priklad: '2 x 3',
 			moznosti: [
 				{
 					id: 1,
@@ -324,7 +324,7 @@ const nasobilkaTri = () => {
 		},
 		{
 			id: 15,
-			priklad: '2 x 3',
+			priklad: '4 x 3',
 			moznosti: [
 				{
 					id: 1,
@@ -332,7 +332,7 @@ const nasobilkaTri = () => {
 				},
 				{
 					id: 2,
-					moznost: '3',
+					moznost: '18',
 				},
 				{
 					id: 3,
@@ -343,11 +343,11 @@ const nasobilkaTri = () => {
 					moznost: '12',
 				},
 			],
-			vysledek: '6',
+			vysledek: '12',
 		},
 		{
 			id: 16,
-			priklad: '5 x 3',
+			priklad: '3 x 5',
 			moznosti: [
 				{
 					id: 1,
@@ -459,6 +459,121 @@ const nasobilkaTri = () => {
 				},
 			],
 			vysledek: '30',
+		},
+		{
+			id: 21,
+			priklad: '4 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '16',
+				},
+				{
+					id: 2,
+					moznost: '12',
+				},
+				{
+					id: 3,
+					moznost: '8',
+				},
+				{
+					id: 4,
+					moznost: '20',
+				},
+			],
+			vysledek: '12',
+		},
+		{
+			id: 22,
+			priklad: '3 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '35',
+				},
+				{
+					id: 2,
+					moznost: '14',
+				},
+				{
+					id: 3,
+					moznost: '28',
+				},
+				{
+					id: 4,
+					moznost: '21',
+				},
+			],
+			vysledek: '21',
+		},
+		{
+			id: 23,
+			priklad: '3 x 9',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '30',
+				},
+				{
+					id: 2,
+					moznost: '27',
+				},
+				{
+					id: 3,
+					moznost: '24',
+				},
+				{
+					id: 4,
+					moznost: '21',
+				},
+			],
+			vysledek: '27',
+		},
+		{
+			id: 24,
+			priklad: '6 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '18',
+				},
+				{
+					id: 2,
+					moznost: '15',
+				},
+				{
+					id: 3,
+					moznost: '24',
+				},
+				{
+					id: 4,
+					moznost: '21',
+				},
+			],
+			vysledek: '18',
+		},
+		{
+			id: 25,
+			priklad: '3 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '18',
+				},
+				{
+					id: 2,
+					moznost: '27',
+				},
+				{
+					id: 3,
+					moznost: '21',
+				},
+				{
+					id: 4,
+					moznost: '24',
+				},
+			],
+			vysledek: '24',
 		},
 	];
 };

@@ -209,7 +209,7 @@ const nasobilkaPeti = () => {
 		},
 		{
 			id: 10,
-			priklad: '10 x 5',
+			priklad: '5 x 10',
 			moznosti: [
 				{
 					id: 1,
@@ -459,6 +459,121 @@ const nasobilkaPeti = () => {
 				},
 			],
 			vysledek: '10',
+		},
+		{
+			id: 21,
+			priklad: '5 x 1',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '5',
+				},
+				{
+					id: 3,
+					moznost: '1',
+				},
+				{
+					id: 4,
+					moznost: '15',
+				},
+			],
+			vysledek: '5',
+		},
+		{
+			id: 22,
+			priklad: '5 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '25',
+				},
+				{
+					id: 3,
+					moznost: '20',
+				},
+				{
+					id: 4,
+					moznost: '15',
+				},
+			],
+			vysledek: '15',
+		},
+		{
+			id: 23,
+			priklad: '5 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '20',
+				},
+				{
+					id: 2,
+					moznost: '25',
+				},
+				{
+					id: 3,
+					moznost: '30',
+				},
+				{
+					id: 4,
+					moznost: '15',
+				},
+			],
+			vysledek: '20',
+		},
+		{
+			id: 24,
+			priklad: '5 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '30',
+				},
+				{
+					id: 2,
+					moznost: '35',
+				},
+				{
+					id: 3,
+					moznost: '40',
+				},
+				{
+					id: 4,
+					moznost: '45',
+				},
+			],
+			vysledek: '35',
+		},
+		{
+			id: 25,
+			priklad: '9 x 5',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '50',
+				},
+				{
+					id: 2,
+					moznost: '35',
+				},
+				{
+					id: 3,
+					moznost: '45',
+				},
+				{
+					id: 4,
+					moznost: '40',
+				},
+			],
+			vysledek: '45',
 		},
 	];
 };

@@ -29,8 +29,6 @@ const Game = props => {
 	const [questions, setQuestions] = useState([]);
 	const [currentQuestion, setCurrentQuestion] = useState({});
 	const [index, setIndex] = useState(0);
-	let correctAnswer = false;
-	let incorrectAnswer = false;
 	const questionContainer = useRef();
 
 	useEffect(() => {
@@ -160,12 +158,8 @@ const Game = props => {
 		}
 	}, [questions]);
 
-	const [priklad, setPriklad] = useState('');
 	useEffect(() => {
 		setCurrentQuestion(questions[index]);
-		if (currentQuestion) {
-			setPriklad(currentQuestion['priklad']);
-		}
 	}, [questions, index]);
 
 
@@ -180,14 +174,12 @@ const Game = props => {
 		if (currentQuestion) {
 			let result = currentQuestion['vysledek'];
 			if (result === e.target.innerHTML) {
-				correctAnswer = true;
 				props.setPoints(props.points + 1);
 				gsap.to(e.target, {
 					background: '#2F7536',
 					duration: 0.2,
 				});
 			} else {
-				incorrectAnswer = false;
 				gsap.to(e.target, {
 					background: '#DA5257',
 					duration: 0.2,
@@ -300,9 +292,9 @@ const Game = props => {
 										gsap.to(alert.current, {
 											display: 'none',
 											onComplete: function () {
-												props.setSecondBox(false);
 												props.setSecondBoxRight(true);
 												props.setFirstBoxRight(true);
+												props.setSecondBox(false);
 											},
 										});
 									},

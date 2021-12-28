@@ -460,6 +460,98 @@ const pocitaniDoDeseti = () => {
 			],
 			vysledek: '9',
 		},
+		{
+			id: 21,
+			priklad: '5 + 2',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '6',
+				},
+				{
+					id: 2,
+					moznost: '8',
+				},
+				{
+					id: 3,
+					moznost: '9',
+				},
+				{
+					id: 4,
+					moznost: '7',
+				},
+			],
+			vysledek: '7',
+		},
+		{
+			id: 22,
+			priklad: '2 + 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '7',
+				},
+				{
+					id: 2,
+					moznost: '8',
+				},
+				{
+					id: 3,
+					moznost: '5',
+				},
+				{
+					id: 4,
+					moznost: '6',
+				},
+			],
+			vysledek: '5',
+		},
+		{
+			id: 23,
+			priklad: '5 + 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '7',
+				},
+				{
+					id: 2,
+					moznost: '9',
+				},
+				{
+					id: 3,
+					moznost: '5',
+				},
+				{
+					id: 4,
+					moznost: '8',
+				},
+			],
+			vysledek: '8',
+		},
+		{
+			id: 24,
+			priklad: '9 + 1',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '9',
+				},
+				{
+					id: 3,
+					moznost: '7',
+				},
+				{
+					id: 4,
+					moznost: '8',
+				},
+			],
+			vysledek: '10',
+		},
 	];
 };
 

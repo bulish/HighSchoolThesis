@@ -2,7 +2,7 @@ const nasobilkaDeviti = () => {
 	return [
 		{
 			id: 1,
-			priklad: '3 x 9',
+			priklad: '9 x 3',
 			moznosti: [
 				{
 					id: 1,
@@ -459,6 +459,98 @@ const nasobilkaDeviti = () => {
 				},
 			],
 			vysledek: '0',
+		},
+		{
+			id: 21,
+			priklad: '9 x 1',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '18',
+				},
+				{
+					id: 2,
+					moznost: '27',
+				},
+				{
+					id: 3,
+					moznost: '9',
+				},
+				{
+					id: 4,
+					moznost: '1',
+				},
+			],
+			vysledek: '9',
+		},
+		{
+			id: 22,
+			priklad: '9 x 5',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '63',
+				},
+				{
+					id: 2,
+					moznost: '54',
+				},
+				{
+					id: 3,
+					moznost: '45',
+				},
+				{
+					id: 4,
+					moznost: '36',
+				},
+			],
+			vysledek: '45',
+		},
+		{
+			id: 23,
+			priklad: '6 x 9',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '36',
+				},
+				{
+					id: 2,
+					moznost: '54',
+				},
+				{
+					id: 3,
+					moznost: '45',
+				},
+				{
+					id: 4,
+					moznost: '63',
+				},
+			],
+			vysledek: '54',
+		},
+		{
+			id: 24,
+			priklad: '9 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '72',
+				},
+				{
+					id: 2,
+					moznost: '45',
+				},
+				{
+					id: 3,
+					moznost: '54',
+				},
+				{
+					id: 4,
+					moznost: '63',
+				},
+			],
+			vysledek: '72',
 		},
 	];
 };

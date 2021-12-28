@@ -94,7 +94,7 @@ const nasobilkaSedmi = () => {
 		},
 		{
 			id: 5,
-			priklad: '5 x 7',
+			priklad: '7 x 5',
 			moznosti: [
 				{
 					id: 1,
@@ -459,6 +459,121 @@ const nasobilkaSedmi = () => {
 				},
 			],
 			vysledek: '8',
+		},
+		{
+			id: 21,
+			priklad: '6 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '54',
+				},
+				{
+					id: 2,
+					moznost: '36',
+				},
+				{
+					id: 3,
+					moznost: '42',
+				},
+				{
+					id: 4,
+					moznost: '48',
+				},
+			],
+			vysledek: '42',
+		},
+		{
+			id: 22,
+			priklad: '7 x 9',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '70',
+				},
+				{
+					id: 2,
+					moznost: '63',
+				},
+				{
+					id: 3,
+					moznost: '56',
+				},
+				{
+					id: 4,
+					moznost: '49',
+				},
+			],
+			vysledek: '63',
+		},
+		{
+			id: 23,
+			priklad: '8 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '49',
+				},
+				{
+					id: 2,
+					moznost: '63',
+				},
+				{
+					id: 3,
+					moznost: '56',
+				},
+				{
+					id: 4,
+					moznost: '49',
+				},
+			],
+			vysledek: '56',
+		},
+		{
+			id: 24,
+			priklad: '7 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '42',
+				},
+				{
+					id: 2,
+					moznost: '35',
+				},
+				{
+					id: 3,
+					moznost: '28',
+				},
+				{
+					id: 4,
+					moznost: '21',
+				},
+			],
+			vysledek: '28',
+		},
+		{
+			id: 25,
+			priklad: '2 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '14',
+				},
+				{
+					id: 2,
+					moznost: '35',
+				},
+				{
+					id: 3,
+					moznost: '28',
+				},
+				{
+					id: 4,
+					moznost: '21',
+				},
+			],
+			vysledek: '14',
 		},
 	];
 };

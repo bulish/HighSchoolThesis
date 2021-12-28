@@ -460,6 +460,98 @@ const nasobilkaCtyr = () => {
 			],
 			vysledek: '40',
 		},
+		{
+			id: 21,
+			priklad: '4 x 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '24',
+				},
+				{
+					id: 2,
+					moznost: '28',
+				},
+				{
+					id: 3,
+					moznost: '22',
+				},
+				{
+					id: 4,
+					moznost: '20',
+				},
+			],
+			vysledek: '24',
+		},
+		{
+			id: 22,
+			priklad: '7 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '21',
+				},
+				{
+					id: 2,
+					moznost: '28',
+				},
+				{
+					id: 3,
+					moznost: '35',
+				},
+				{
+					id: 4,
+					moznost: '42',
+				},
+			],
+			vysledek: '28',
+		},
+		{
+			id: 23,
+			priklad: '9 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '40',
+				},
+				{
+					id: 2,
+					moznost: '32',
+				},
+				{
+					id: 3,
+					moznost: '28',
+				},
+				{
+					id: 4,
+					moznost: '36',
+				},
+			],
+			vysledek: '36',
+		},
+		{
+			id: 24,
+			priklad: '2 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '16',
+				},
+				{
+					id: 2,
+					moznost: '8',
+				},
+				{
+					id: 3,
+					moznost: '4',
+				},
+				{
+					id: 4,
+					moznost: '12',
+				},
+			],
+			vysledek: '8',
+		},
 	];
 };
 

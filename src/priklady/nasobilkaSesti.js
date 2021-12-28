@@ -209,7 +209,7 @@ const nasobilkaSesti = () => {
 		},
 		{
 			id: 10,
-			priklad: '8 x 6',
+			priklad: '6 x 7',
 			moznosti: [
 				{
 					id: 1,
@@ -217,7 +217,7 @@ const nasobilkaSesti = () => {
 				},
 				{
 					id: 2,
-					moznost: '54',
+					moznost: '48',
 				},
 				{
 					id: 3,
@@ -225,10 +225,10 @@ const nasobilkaSesti = () => {
 				},
 				{
 					id: 4,
-					moznost: '48',
+					moznost: '54',
 				},
 			],
-			vysledek: '48',
+			vysledek: '42',
 		},
 		{
 			id: 11,
@@ -459,6 +459,144 @@ const nasobilkaSesti = () => {
 				},
 			],
 			vysledek: '3',
+		},
+		{
+			id: 21,
+			priklad: '6 x 2',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '6',
+				},
+				{
+					id: 2,
+					moznost: '12',
+				},
+				{
+					id: 3,
+					moznost: '18',
+				},
+				{
+					id: 4,
+					moznost: '24',
+				},
+			],
+			vysledek: '12',
+		},
+		{
+			id: 22,
+			priklad: '6 x 4',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '24',
+				},
+				{
+					id: 2,
+					moznost: '12',
+				},
+				{
+					id: 3,
+					moznost: '18',
+				},
+				{
+					id: 4,
+					moznost: '30',
+				},
+			],
+			vysledek: '24',
+		},
+		{
+			id: 23,
+			priklad: '6 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '24',
+				},
+				{
+					id: 2,
+					moznost: '18',
+				},
+				{
+					id: 3,
+					moznost: '12',
+				},
+				{
+					id: 4,
+					moznost: '30',
+				},
+			],
+			vysledek: '18',
+		},
+		{
+			id: 24,
+			priklad: '6 x 9',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '45',
+				},
+				{
+					id: 2,
+					moznost: '54',
+				},
+				{
+					id: 3,
+					moznost: '36',
+				},
+				{
+					id: 4,
+					moznost: '63',
+				},
+			],
+			vysledek: '54',
+		},
+		{
+			id: 25,
+			priklad: '5 x 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '48',
+				},
+				{
+					id: 2,
+					moznost: '42',
+				},
+				{
+					id: 3,
+					moznost: '30',
+				},
+				{
+					id: 4,
+					moznost: '36',
+				},
+			],
+			vysledek: '30',
+		},
+		{
+			id: 26,
+			priklad: '8 x 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '48',
+				},
+				{
+					id: 2,
+					moznost: '42',
+				},
+				{
+					id: 3,
+					moznost: '56',
+				},
+				{
+					id: 4,
+					moznost: '36',
+				},
+			],
+			vysledek: '48',
 		},
 	];
 };

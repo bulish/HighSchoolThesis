@@ -460,6 +460,213 @@ const nasobilkaDesiti = () => {
 			],
 			vysledek: '1',
 		},
+		{
+			id: 21,
+			priklad: '10 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '50',
+				},
+				{
+					id: 2,
+					moznost: '40',
+				},
+				{
+					id: 3,
+					moznost: '20',
+				},
+				{
+					id: 4,
+					moznost: '30',
+				},
+			],
+			vysledek: '30',
+		},
+		{
+			id: 21,
+			priklad: '10 x 1',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '10',
+				},
+				{
+					id: 2,
+					moznost: '0',
+				},
+				{
+					id: 3,
+					moznost: '1',
+				},
+				{
+					id: 4,
+					moznost: '20',
+				},
+			],
+			vysledek: '10',
+		},
+		{
+			id: 22,
+			priklad: '9 x 10',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '90',
+				},
+				{
+					id: 2,
+					moznost: '80',
+				},
+				{
+					id: 3,
+					moznost: '70',
+				},
+				{
+					id: 4,
+					moznost: '60',
+				},
+			],
+			vysledek: '90',
+		},
+		{
+			id: 23,
+			priklad: '10 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '60',
+				},
+				{
+					id: 2,
+					moznost: '80',
+				},
+				{
+					id: 3,
+					moznost: '90',
+				},
+				{
+					id: 4,
+					moznost: '60',
+				},
+			],
+			vysledek: '80',
+		},
+		{
+			id: 24,
+			priklad: '10 x 5',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '40',
+				},
+				{
+					id: 2,
+					moznost: '70',
+				},
+				{
+					id: 3,
+					moznost: '50',
+				},
+				{
+					id: 4,
+					moznost: '60',
+				},
+			],
+			vysledek: '50',
+		},
+		{
+			id: 25,
+			priklad: '10 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '80',
+				},
+				{
+					id: 2,
+					moznost: '60',
+				},
+				{
+					id: 3,
+					moznost: '50',
+				},
+				{
+					id: 4,
+					moznost: '70',
+				},
+			],
+			vysledek: '70',
+		},
+		{
+			id: 26,
+			priklad: '2 x 10',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '20',
+				},
+				{
+					id: 2,
+					moznost: '30',
+				},
+				{
+					id: 3,
+					moznost: '10',
+				},
+				{
+					id: 4,
+					moznost: '40',
+				},
+			],
+			vysledek: '20',
+		},
+		{
+			id: 27,
+			priklad: '3 x 10',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '40',
+				},
+				{
+					id: 2,
+					moznost: '30',
+				},
+				{
+					id: 3,
+					moznost: '10',
+				},
+				{
+					id: 4,
+					moznost: '20',
+				},
+			],
+			vysledek: '30',
+		},
+		{
+			id: 28,
+			priklad: '10 x 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '80',
+				},
+				{
+					id: 2,
+					moznost: '70',
+				},
+				{
+					id: 3,
+					moznost: '60',
+				},
+				{
+					id: 4,
+					moznost: '50',
+				},
+			],
+			vysledek: '60',
+		},
 	];
 };
 

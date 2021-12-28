@@ -460,6 +460,213 @@ const nasobilkaOsmi = () => {
 			],
 			vysledek: '0',
 		},
+		{
+			id: 21,
+			priklad: '8 x 1',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '8',
+				},
+				{
+					id: 2,
+					moznost: '1',
+				},
+				{
+					id: 3,
+					moznost: '16',
+				},
+				{
+					id: 4,
+					moznost: '24',
+				},
+			],
+			vysledek: '8',
+		},
+		{
+			id: 22,
+			priklad: '8 x 7',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '63',
+				},
+				{
+					id: 2,
+					moznost: '42',
+				},
+				{
+					id: 3,
+					moznost: '56',
+				},
+				{
+					id: 4,
+					moznost: '49',
+				},
+			],
+			vysledek: '56',
+		},
+		{
+			id: 23,
+			priklad: '8 x 3',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '32',
+				},
+				{
+					id: 2,
+					moznost: '40',
+				},
+				{
+					id: 3,
+					moznost: '24',
+				},
+				{
+					id: 4,
+					moznost: '16',
+				},
+			],
+			vysledek: '24',
+		},
+		{
+			id: 24,
+			priklad: '8 x 9',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '56',
+				},
+				{
+					id: 2,
+					moznost: '64',
+				},
+				{
+					id: 3,
+					moznost: '72',
+				},
+				{
+					id: 4,
+					moznost: '80',
+				},
+			],
+			vysledek: '72',
+		},
+		{
+			id: 25,
+			priklad: '8 x 5',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '50',
+				},
+				{
+					id: 2,
+					moznost: '35',
+				},
+				{
+					id: 3,
+					moznost: '40',
+				},
+				{
+					id: 4,
+					moznost: '45',
+				},
+			],
+			vysledek: '40',
+		},
+		{
+			id: 26,
+			priklad: '8 x 2',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '20',
+				},
+				{
+					id: 2,
+					moznost: '16',
+				},
+				{
+					id: 3,
+					moznost: '18',
+				},
+				{
+					id: 4,
+					moznost: '14',
+				},
+			],
+			vysledek: '16',
+		},
+		{
+			id: 27,
+			priklad: '4 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '32',
+				},
+				{
+					id: 2,
+					moznost: '36',
+				},
+				{
+					id: 3,
+					moznost: '28',
+				},
+				{
+					id: 4,
+					moznost: '24',
+				},
+			],
+			vysledek: '32',
+		},
+		{
+			id: 28,
+			priklad: '8 x 6',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '54',
+				},
+				{
+					id: 2,
+					moznost: '36',
+				},
+				{
+					id: 3,
+					moznost: '48',
+				},
+				{
+					id: 4,
+					moznost: '42',
+				},
+			],
+			vysledek: '48',
+		},
+		{
+			id: 29,
+			priklad: '10 x 8',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '56',
+				},
+				{
+					id: 2,
+					moznost: '64',
+				},
+				{
+					id: 3,
+					moznost: '80',
+				},
+				{
+					id: 4,
+					moznost: '72',
+				},
+			],
+			vysledek: '80',
+		},
 	];
 };
 

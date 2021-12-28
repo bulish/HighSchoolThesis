@@ -460,6 +460,121 @@ const pocitaniDoSta = () => {
 			],
 			vysledek: '46',
 		},
+		{
+			id: 21,
+			priklad: '21 + 21',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '43',
+				},
+				{
+					id: 2,
+					moznost: '42',
+				},
+				{
+					id: 3,
+					moznost: '40',
+				},
+				{
+					id: 4,
+					moznost: '41',
+				},
+			],
+			vysledek: '42',
+		},
+		{
+			id: 22,
+			priklad: '30 + 58',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '89',
+				},
+				{
+					id: 2,
+					moznost: '88',
+				},
+				{
+					id: 3,
+					moznost: '87',
+				},
+				{
+					id: 4,
+					moznost: '86',
+				},
+			],
+			vysledek: '88',
+		},
+		{
+			id: 23,
+			priklad: '95 - 35',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '50',
+				},
+				{
+					id: 2,
+					moznost: '60',
+				},
+				{
+					id: 3,
+					moznost: '65',
+				},
+				{
+					id: 4,
+					moznost: '55',
+				},
+			],
+			vysledek: '60',
+		},
+		{
+			id: 24,
+			priklad: '100 - 15',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '80',
+				},
+				{
+					id: 2,
+					moznost: '85',
+				},
+				{
+					id: 3,
+					moznost: '75',
+				},
+				{
+					id: 4,
+					moznost: '70',
+				},
+			],
+			vysledek: '85',
+		},
+		{
+			id: 25,
+			priklad: '60 - 21',
+			moznosti: [
+				{
+					id: 1,
+					moznost: '38',
+				},
+				{
+					id: 2,
+					moznost: '48',
+				},
+				{
+					id: 3,
+					moznost: '49',
+				},
+				{
+					id: 4,
+					moznost: '39',
+				},
+			],
+			vysledek: '39',
+		},
 	];
 };
 
