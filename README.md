@@ -1,19 +1,23 @@
-# Matematický kvíz v Reactu.js
+# Math Quiz in React.js
 
-Tento projekt je zároveň mojí maturitní prací, kterou budu obhajovat v květnu 2022. \
-Online verze [zde](https://matematicky-kviz.netlify.app/)
+This project is also my graduation thesis, which I will defend in May 2022. \
+You can find the online version [here](https://matematicky-kviz.netlify.app/).
 
-## Instalace projektu:
+## Project Installation 🔧
 
-Pro instalaci potřebujete mít ve svém počítači stažený Node.js. \
-ZIP soubor stáhnete kliknutím na **CODE &rarr; Download ZIP**. \
-Projekt si také můžete naklonovat příkazem **git clone https://github.com/bulish/Maturitni-prace.git nazev-slozky**
+To install, you need to have Node.js installed on your computer. \
+You can download the ZIP file by clicking **CODE &rarr; Download ZIP**. \
+Alternatively, you can clone the project by running **git clone https://github.com/bulish/Maturitni-prace.git folder-name**.
 
 ### `npm install`
 
-Následně v příkazovém řádku ve složce, ve které máte uložený projekt, zadejte příkaz **npm install**, kterým stáhnete všechny potřebné balíčky.
+Next, in the command line, navigate to the folder where the project is stored and run the command **npm install** to download all necessary packages.
 
 ### `npm start`
 
-Poté příkazem **npm start** spustíte projekt.\
-V prohlížeci se Vám projekt spustí na této adrese: [http://localhost:3000](http://localhost:3000).
+Afterward, run the project by typing **npm start**.\
+The project will launch in your browser at: [http://localhost:3000](http://localhost:3000).
+
+## Author ✨
+
+Created by **[bulish](https://github.com/bulish)**
