@@ -7,7 +7,7 @@ You can find the online version [here](https://matematicky-kviz.netlify.app/).
 
 To install, you need to have Node.js installed on your computer. \
 You can download the ZIP file by clicking **CODE &rarr; Download ZIP**. \
-Alternatively, you can clone the project by running **git clone https://github.com/bulish/Maturitni-prace.git folder-name**.
+Alternatively, you can clone the project by running **git clone https://github.com/bulish/HighSchoolThesis.git folder-name**.
 
 ### `npm install`
 
